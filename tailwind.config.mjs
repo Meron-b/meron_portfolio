@@ -15,6 +15,9 @@ export default {
         "light-green": "#8FDBC2",
       },
       fontFamily: {
+        'comic-neue': ['var(--font-comic-neue)', 'sans-serif'],
+        'geist-sans': ['var(--font-geist-sans)', 'sans-serif'],
+        'geist-mono': ['var(--font-geist-mono)', 'monospace'],
         acorn: ["Acorn"],
       }
     },
