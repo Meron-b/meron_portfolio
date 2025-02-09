@@ -17,5 +17,17 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif, "Acorn";
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Acorn";
+  src: url("/fonts/Acorn-SemiBold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
