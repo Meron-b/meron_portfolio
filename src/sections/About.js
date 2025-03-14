@@ -138,7 +138,7 @@ const About = () => {
   };
 
   return (
-    <section className="min-h-screen py-32 px-8 flex flex-col md:flex-row justify-center items-start">
+    <section id="about" className="min-h-screen py-32 px-8 flex flex-col md:flex-row justify-center items-start">
       <div className="md:w-1/2 flex justify-center">
         <img src="/headshotLI.svg" alt="Profile" className="" />
       </div>
