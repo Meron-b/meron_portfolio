@@ -166,7 +166,14 @@ const About = () => {
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`tab-links text-xl font-comic-neue font-bold ${activeTab === tab ? 'underline text-light-green' : 'text-white'}`}
+                className={`
+                  tab-links text-xl font-comic-neue font-bold text-white
+                  relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-light-green after:rounded-full
+                  ${activeTab === tab 
+                    ? 'after:w-[70%] text-light-green' 
+                    : 'after:w-0 hover:after:w-[70%] after:transition-all after:duration-300'
+                  }
+                `}
               >
                 {tab}
               </button>
