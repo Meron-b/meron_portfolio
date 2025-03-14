@@ -90,22 +90,46 @@ const About = () => {
         );
       case 'Skills':
         return (
-          <div className="tab-content">
-            <ul>
-              <li>Java</li>
-              <li>JavaScript</li>
-              <li>Python</li>
-              <li>HTML/CSS</li>
-            </ul>
+          <div className="tab-content mt-8 font-comic-neue font-bold">
+            <div className="grid grid-cols-4 gap-8">
+              <div className="space-y-6">
+                <p className="text-light-green text-[16px]">Java</p>
+                <p className="text-light-green text-[16px]">JavaScript</p>
+                <p className="text-light-green text-[16px]">Next.js</p>
+              </div>
+              
+              <div className="space-y-6">
+                <p className="text-light-green text-[16px]">C/C++</p>
+                <p className="text-light-green text-[16px]">HTML/CSS</p>
+                <p className="text-light-green text-[16px]">Typescript</p>
+              </div>
+              
+              <div className="space-y-6">
+                <p className="text-light-green text-[16px]">Python</p>
+                <p className="text-light-green text-[16px]">CUDA</p>
+              </div>
+              
+              <div className="space-y-6">
+                <p className="text-light-green text-[16px]">Kotlin</p>
+                <p className="text-light-green text-[16px]">React</p>
+              </div>
+            </div>
           </div>
         );
       case 'Organizations':
         return (
-          <div className="tab-content">
-            <ul>
-              <li>Management Leadership for Tomorrow (MLT)</li>
-              <li>National Society of Black Engineers (NSBE)</li>
-            </ul>
+          <div className="tab-content mt-8 font-comic-neue font-bold">
+            <div className="grid grid-cols-2 gap-32">
+              <div className="space-y-6">
+                <p className="text-light-green text-[16px]">Management Leadership for Tomorrow (MLT)</p>
+                <p className="text-light-green text-[16px]">National Society of Black Engineers (NSBE)</p>
+              </div>
+              
+              <div className="space-y-6">
+                <p className="text-light-green text-[16px]">Colorstack</p>
+                <p className="text-light-green text-[16px]">RTC</p>
+              </div>
+            </div>
           </div>
         );
       default:
