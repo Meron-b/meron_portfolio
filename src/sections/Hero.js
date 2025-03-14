@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="h-screen flex flex-col items-center justify-center bg-dark-green text-light-green">
+    <section className="h-screen flex flex-col items-center justify-center text-light-green">
       
     
 
@@ -36,7 +36,7 @@ const Hero = () => {
 
         {/* Subheading */}
         <p className="mt-[5vw] text-[1.5vw] text-[#d4ede4] max-w-[60vw]">
-          I’m passionate about building products that are efficient, impactful, and user-centric. 
+          I'm passionate about building products that are efficient, impactful, and user-centric. 
         </p>
       </div>
 

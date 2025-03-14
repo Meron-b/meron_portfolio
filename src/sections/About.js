@@ -22,6 +22,23 @@ const About = () => {
               </div>
             </div>
             <div className="flex items-center mb-4">
+              <img src="/remod-logo.svg" alt="Remod Logo" className="w-12 h-12 mr-4" />
+              <div>
+                <h3 className="text-light-green">Software Engineer Intern</h3>
+                <p className="text-white">Remod (Startup)</p>
+                <div className="flex space-x-2 mt-2">
+                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(17, 50, 38, 0.80', color: 'white' }}>Feb 2025 - Present</span>
+                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(74, 111, 99, 1.00)', color: 'white' }}>New York, NY</span>
+                </div>
+                <div className="flex space-x-2 mt-2">
+                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>Python</span>
+                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>Next.js</span>
+                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>React</span>
+                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>AI</span>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center mb-4">
               <img src="/google-logo.svg" alt="Google Logo" className="w-12 h-12 mr-4" />
               <div>
                 <h3 className="text-light-green">Software Engineer Intern (STEP II)</h3>
@@ -90,7 +107,7 @@ const About = () => {
   };
 
   return (
-    <section className="min-h-screen py-32 px-8 bg-dark-green flex flex-col md:flex-row justify-center items-start">
+    <section className="min-h-screen py-32 px-8 flex flex-col md:flex-row justify-center items-start">
       <div className="md:w-1/2 flex justify-center">
         <img src="/headshotLI.svg" alt="Profile" className="" />
       </div>

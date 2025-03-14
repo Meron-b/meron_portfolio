@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { Comic_Neue } from 'next/font/google';
 import "./globals.css";
-
+import BackgroundCanvas from "@/components/BackgroundCanvas";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${comicNeue.variable} ${geistSans.variable} ${geistMono.variable}`}>
       <body className="antialiased">
+        <BackgroundCanvas />
         {children}
       </body>
     </html>
