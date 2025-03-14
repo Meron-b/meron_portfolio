@@ -146,7 +146,12 @@ const About = () => {
         <h2 className="text-4xl font-acorn text-light-green">
           I'm a Software Engineer based in <br /> New York, NY
         </h2>
-        <a href="#" className="inline-block mt-6 mb-[-10px]">
+        <a 
+          href="https://meronbelachew.notion.site/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="inline-block mt-6 mb-[-10px] transform transition-all duration-200 hover:scale-105 hover:opacity-80 hover:-translate-y-1"
+        >
           <img src="/resume-button.svg" alt="Resume Button" className="w-auto h-auto" />
         </a>
         <p className="mt-4 text-white text-[18px] font-comic-neue font-bold">
