@@ -16,8 +16,8 @@ const About = () => {
                 <h3 className="text-light-green">Software Engineer Intern</h3>
                 <p className="text-white"> Google, YouTube</p>
                 <div className="flex space-x-2 mt-2">
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(17, 50, 38, 0.80', color: 'white' }}>Incoming</span>
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(74, 111, 99, 1.00)', color: 'white' }}>San Bruno, CA</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#233931]">Incoming</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#4A6F63]">San Bruno, CA</span>
                 </div>
               </div>
             </div>
@@ -27,14 +27,14 @@ const About = () => {
                 <h3 className="text-light-green">Software Engineer Intern</h3>
                 <p className="text-white">Remod (Startup)</p>
                 <div className="flex space-x-2 mt-2">
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(17, 50, 38, 0.80', color: 'white' }}>Feb 2025 - Present</span>
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(74, 111, 99, 1.00)', color: 'white' }}>New York, NY</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#233931]">Feb 2025 - Present</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#4A6F63]">New York, NY</span>
                 </div>
                 <div className="flex space-x-2 mt-2">
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>Python</span>
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>Next.js</span>
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>React</span>
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>AI</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#F574A3]">Python</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#F574A3]">Next.js</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#F574A3]">React</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#F574A3]">AI</span>
                 </div>
               </div>
             </div>
@@ -44,13 +44,13 @@ const About = () => {
                 <h3 className="text-light-green">Software Engineer Intern (STEP II)</h3>
                 <p className="text-white">Google, Dialer</p>
                 <div className="flex space-x-2 mt-2">
-                <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(17, 50, 38, 0.80', color: 'white' }}>May - Aug 2024</span>
-                <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(74, 111, 99, 1.00)', color: 'white' }}>San Jose, CA</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#233931]">May - Aug 2024</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#4A6F63]">San Jose, CA</span>
                 </div>
                 <div className="flex space-x-2 mt-2">
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>Java</span>
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>Kotlin</span>
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>Mobile Dev</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#F574A3]">Java</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#F574A3]">Kotlin</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#F574A3]">Mobile Dev</span>
                 </div>
               </div>
             </div>
@@ -60,13 +60,13 @@ const About = () => {
                 <h3 className="text-light-green">Software Engineer Intern (STEP I)</h3>
                 <p className="text-white">Google, Dialer</p>
                 <div className="flex space-x-2 mt-2">
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(17, 50, 38, 0.80', color: 'white' }}>May - Aug 2023</span>
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(74, 111, 99, 1.00)', color: 'white' }}>Mountain View, CA</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#233931]">May - Aug 2023</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#4A6F63]">Mountain View, CA</span>
                 </div>
                 <div className="flex space-x-2 mt-2">
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>Java</span>
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>Kotlin</span>
-                  <span className="px-4 py-1 rounded-full" style={{ backgroundColor: 'rgba(245, 116, 163, 0.89)', color: 'white' }}>Mobile Dev</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#F574A3]">Java</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#F574A3]">Kotlin</span>
+                  <span className="px-4 py-1 rounded-full text-white bg-[#F574A3]">Mobile Dev</span>
                 </div>
               </div>
             </div>
@@ -74,11 +74,18 @@ const About = () => {
         );
       case 'Education':
         return (
-          <div className="tab-content">
-            <ul>
-              <li>Columbia University</li>
-              <li>Walnut Hills High School</li>
-            </ul>
+          <div className="tab-content mt-8 font-comic-neue font-bold">
+            <div className="flex gap-20">
+              <div>
+                <p className="text-light-green text-[16px]">Sep 2022 - Present</p>
+                <h3 className="text-white text-[18px]">Columbia University</h3>
+              </div>
+              
+              <div>
+                <p className="text-light-green text-[16px]">Aug 2018 - May 2022</p>
+                <h3 className="text-white text-[18px]">Walnut Hills High School</h3>
+              </div>
+            </div>
           </div>
         );
       case 'Skills':
