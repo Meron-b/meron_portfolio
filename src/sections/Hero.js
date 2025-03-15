@@ -29,7 +29,7 @@ const Hero = () => {
         <h1 className="text-[8vw] font-acorn leading-[7.5vw]">A Developer</h1>
 
         {/* Subheading */}
-        <p className="mt-[5vw] text-[1.5vw] text-[#d4ede4] max-w-[60vw]">
+        <p className="mt-[5vw] text-[1.5vw] font-comic-neue font-bold text-[#d4ede4] max-w-[60vw]">
           I'm passionate about building products that are efficient, impactful, and user-centric. 
         </p>
       </div>
