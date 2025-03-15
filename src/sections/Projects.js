@@ -67,11 +67,11 @@ const Projects = () => {
             </div>
           </div>
           
-          <div className="md:w-1/2 lg:w-1/3 self-end">
+          <div className="md:w-1/2 lg:w-1/3 self-end flex justify-center pt-5">
             <img 
               src="/android-phone.svg" 
               alt="Android Phone" 
-              className="w-full h-auto"
+              className="w-auto h-auto scale-[1.1] transform-gpu"
             />
           </div>
         </div>
