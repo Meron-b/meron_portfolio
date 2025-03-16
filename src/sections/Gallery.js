@@ -1,6 +1,6 @@
 const Gallery = () => {
     return (
-      <section id="gallery" className="pt-60 pb-20 px-8">
+      <section id="gallery" className="pt-40 pb-20 px-8">
         <div className="max-w-6xl mx-auto">
           <p className="text-[22px] font-comic-neue font-bold text-white mb-3">
             When I'm not coding...
