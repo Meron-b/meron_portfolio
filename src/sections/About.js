@@ -25,7 +25,7 @@ const About = () => {
               <img src="/remod-logo.svg" alt="Remod Logo" className="w-12 h-12 mr-4" />
               <div>
                 <h3 className="text-light-green">Software Engineer Intern</h3>
-                <p className="text-white">Remod (Startup)</p>
+                <p className="text-white">Remod (Columbia Build Lab Startup)</p>
                 <div className="flex space-x-2 mt-2">
                   <span className="px-4 py-1 rounded-full text-white bg-[#233931]">Feb 2025 - Present</span>
                   <span className="px-4 py-1 rounded-full text-white bg-[#4A6F63]">New York, NY</span>
