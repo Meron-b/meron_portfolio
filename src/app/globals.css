@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Your custom CSS below this line */
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,7 +19,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif, "Acorn";
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -29,5 +31,22 @@ html {
   src: url("/fonts/Acorn-SemiBold.woff") format("woff");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comic Neue";
+  src: url("/fonts/ComicNeue-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comic Neue";
+  src: url("/fonts/ComicNeue-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 

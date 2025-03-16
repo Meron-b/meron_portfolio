@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Hero = () => {
   return (
     <section id="hero" className="h-screen flex flex-col items-center justify-center text-light-green relative">
@@ -27,11 +25,7 @@ const Hero = () => {
       <div className="absolute top-[30vh] left-1/2 transform -translate-x-1/2 text-center z-10">
         <h1 className="text-[8vw] font-acorn leading-tight">Hi. I'm Meron.</h1>
         <h1 className="text-[8vw] font-acorn leading-[7.5vw]">A Developer</h1>
-
-        {/* Subheading */}
-        <p className="mt-[5vw] text-[1.5vw] font-comic-neue font-bold text-[#d4ede4] max-w-[60vw]">
-          I'm passionate about building products that are efficient, impactful, and user-centric. 
-        </p>
+        
       </div>
     </section>
   );
