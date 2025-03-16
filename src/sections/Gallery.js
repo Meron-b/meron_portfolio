@@ -169,6 +169,34 @@ const Gallery = () => {
               <p className="text-xl font-comic-neue font-bold text-white mt-2">Initiatives</p>
             </div>
           </div>
+
+          {/* CORE details */}
+          <div className="mt-16 flex flex-col items-start">
+            <div className="flex items-center">
+              <a 
+                href="https://www.coreatcu.com/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:animate-bounce transition-transform duration-300 flex items-center"
+                style={{ animationDuration: '0.7s' }}
+              >
+                <img 
+                  src="/core-logo.svg" 
+                  alt="CORE Logo" 
+                  className="w-[30px] h-[30px]"
+                />
+              </a>
+              <span className="text-[18px] font-comic-neue font-bold text-white ml-4">| co-president</span>
+            </div>
+            <a 
+              href="https://www.coreatcu.com/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-[18px] font-comic-neue font-bold text-white mt-2 no-underline hover:underline decoration-2 underline-offset-2 transition-all duration-300"
+            >
+              coreatcu.com
+            </a>
+          </div>
         </div>
       </section>
     );
