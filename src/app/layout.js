@@ -23,6 +23,10 @@ const comicNeue = Comic_Neue({
 export const metadata = {
   title: "Meron Belachew",
   description: "Personal portfolio website",
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
 };
 
 export default function RootLayout({ children }) {

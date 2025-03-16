@@ -13,7 +13,7 @@ module.exports = {
       },
       fontFamily: {
         'acorn': ['Acorn', 'sans-serif'],
-        'comic-neue': ['"Comic Neue"', 'cursive'],
+        'comic-neue': ['var(--font-comic-neue)', 'cursive'],
       },
     },
   },
