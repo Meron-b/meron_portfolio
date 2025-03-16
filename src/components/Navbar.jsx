@@ -41,7 +41,13 @@ const Navbar = () => {
   
   return (
     <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-[100] pointer-events-none">
-      <div className="bg-[#233931]/40 backdrop-blur-sm rounded-full px-6 py-3 flex items-center space-x-8 border border-[#8FDBC2]/30 pointer-events-auto">
+      <div className={`
+        backdrop-blur-sm rounded-full px-6 py-3 flex items-center space-x-8 pointer-events-auto
+        ${activeSection === 'projects' 
+          ? 'bg-[#DDC1A0]/40 border border-[#F5F5DC]/50' 
+          : 'bg-[#233931]/40 border border-[#8FDBC2]/30'
+        }
+      `}>
         <div className="text-white font-acorn text-lg">
           Meron Belachew
         </div>
@@ -63,7 +69,9 @@ const Navbar = () => {
               className={`
                 relative font-comic-neue text-lg transition-all duration-300 px-3 py-1 rounded-full text-white
                 ${activeSection === item.id 
-                  ? 'bg-light-green/20 border border-light-green/40' 
+                  ? item.id === 'projects'
+                    ? 'bg-[#FFF2E3]/20 border border-[#FFF2E3]/40' 
+                    : 'bg-light-green/20 border border-light-green/40'
                   : hoveredItem === item.id ? 'bg-white/10' : ''
                 }
               `}
