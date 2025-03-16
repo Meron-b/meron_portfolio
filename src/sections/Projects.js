@@ -25,7 +25,7 @@ const Projects = () => {
         <div className="flex flex-col md:flex-row items-start justify-between w-full -mt-10">
           <div className="md:w-1/2 mb-10 md:mb-0 md:pl-0">
             <h2 className="text-5xl md:text-5xl font-acorn text-[#A79687] leading-tight">
-              I work on Android<br />Mobile apps
+              I've worked on Android<br />Mobile apps
             </h2>
             
             {/* Project Showcase 1 */}
