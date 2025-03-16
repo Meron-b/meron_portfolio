@@ -10,24 +10,57 @@ const Gallery = () => {
           </h2>
           
           {/* Images container with top alignment, centered horizontally */}
-          <div className="mt-8 flex items-start justify-center gap-4">
-            <img 
-              src="/kalshi.png" 
-              alt="Kalshi" 
-              className="w-auto h-auto rounded-lg shadow-md"
-            />
+          <div className="mt-20 flex items-start justify-center gap-4">
+            {/* Column with kalshi.png and pitch.png stacked */}
+            <div className="flex flex-col gap-4">
+              <img 
+                src="/kalshi.png" 
+                alt="Kalshi" 
+                className="w-auto h-auto rounded-lg shadow-md"
+              />
+              
+              <img 
+                src="/pitch.png" 
+                alt="Pitch" 
+                className="w-auto h-auto rounded-lg shadow-md"
+              />
+            </div>
             
-            <img 
-              src="/beli.png" 
-              alt="Beli" 
-              className="w-auto h-auto rounded-lg shadow-md"
-            />
+            {/* Column with beli.png, dantooney.png and pm.png stacked */}
+            <div className="flex flex-col gap-4">
+              <img 
+                src="/beli.png" 
+                alt="Beli" 
+                className="w-auto h-auto rounded-lg shadow-md"
+              />
+              
+              <img 
+                src="/dantooney.png" 
+                alt="Dan Tooney" 
+                className="w-auto h-auto rounded-lg shadow-md"
+              />
+              
+              <img 
+                src="/pm.png" 
+                alt="Product Management" 
+                className="w-auto h-auto rounded-lg shadow-md"
+              />
+            </div>
             
-            <img 
-              src="/almaworks-team.png" 
-              alt="Almaworks Team" 
-              className="w-auto h-auto rounded-lg shadow-md"
-            />
+            {/* Column with almaworks-team.png and network.png stacked */}
+            <div className="flex flex-col gap-4">
+              <img 
+                src="/almaworks-team.png" 
+                alt="Almaworks Team" 
+                className="w-auto h-auto rounded-lg shadow-md"
+              />
+              
+              <img 
+                src="/network.png" 
+                alt="Network" 
+                className="w-auto h-auto rounded-lg shadow-md"
+              />
+            </div>
           </div>
         </div>
       </section>
